@@ -1,6 +1,6 @@
 # Procesadores de Lenguajes
 
-## Práctica 1: Tareas iniciales
+## Práctica 2:
 
 Realizar un tutorial acerca de las herramientas que vamos a utilizar en la asignatura
 
@@ -27,4 +27,3 @@ Realizar un tutorial acerca de las herramientas que vamos a utilizar en la asign
 * Rubén Labrador Paez
   * alu0100309553@ull.edu.es
   * https://alu0100309553.github.io/
-
