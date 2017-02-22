@@ -1,6 +1,6 @@
 # Procesadores de Lenguajes
 
-## Práctica 2:
+## Práctica 2 today:
 
 Realizar un tutorial acerca de las herramientas que vamos a utilizar en la asignatura
 
