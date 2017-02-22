@@ -7,7 +7,7 @@ function puts(error, stdout, stderr) {
 console.log(stdout);
 }
 
-sshexec('cd primeros-pasos-en-nodejs-erik-jorge-carlos-ruben && git pull && npm install && npm run build && nohup sudo -b node app.js', {
+sshexec('cd primeros-pasos-en-nodejs-erik-jorge-carlos-ruben && git pull && npm run build && nohup sudo -b node app.js', {
   user: 'usuario',
   host: '10.6.128.156'
 }).pipe(process.stdout);
