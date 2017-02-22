@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var exec = require('child_process').exec;
 var repo = require('./../package.json').repository.wiki;
 console.log(repo);

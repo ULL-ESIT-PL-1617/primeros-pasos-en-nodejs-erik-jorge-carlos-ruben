@@ -1,8 +1,3 @@
-#!/usr/bin/env node
-/**
- * @author github.com/christianalfoni
- * @source https://raw.githubusercontent.com/christianalfoni/react-webpack-cookbook/master/scripts/generate-wiki.js
- */
 'use strict';
 
 var path = require('path');
