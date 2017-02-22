@@ -3,7 +3,7 @@ var shell = require('gulp-shell');
 
 gulp.task('default', ['github', 'build', 'deploy', 'iaas']);
 
-gulp.task('github', shell.task(['git add .', 'git commit -m "Actualizando servidor"']));
+gulp.task('github', shell.task(['git add .', 'git commit -m "Actualizando servidor"', 'git push origin master']));
 
 gulp.task('build', shell.task(['npm run build']));
 
