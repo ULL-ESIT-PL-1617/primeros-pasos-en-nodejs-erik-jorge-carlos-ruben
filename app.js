@@ -4,7 +4,7 @@ var path = require('path');
 
 var app = express();
 app.get('/', function(pet, res){
-  res.sendfile(__dirname + '../gh-pages/index.html');
+  res.sendfile(__dirname + '/gh-pages/index.html');
 });
 
 app.use(express.static(path.resolve('gh-pages')));
