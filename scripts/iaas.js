@@ -7,9 +7,6 @@ function puts(error, stdout, stderr) {
 console.log(stdout);
 }
 
-var url_repo = require('../package.json').repository.url_ssh;
-var name_dir = "Practica2";
-var host = require('../package.json').host.alias;
 sshexec('cd primeros-pasos-en-nodejs-erik-jorge-carlos-ruben && git pull && npm run build && nohup sudo -b node app.js', {
   user: 'usuario',
   host: '10.6.128.156'
